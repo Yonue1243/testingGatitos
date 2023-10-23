@@ -1,0 +1,56 @@
+body{
+    background-color: #fff;
+}
+
+.lecturaGatito{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px;
+    align-items: center;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #0f9;
+}
+.tituloGatito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.factorGatito{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.listaBreed{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    list-style-type: none;
+}
+
+.infoBreed{
+    background-color: skyblue;
+    border: solid 1px #09f;
+    font-size: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+
+.interior{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.parrafoInterior{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
