@@ -1,5 +1,10 @@
 body{
     background-color: #fff;
+    margin: 0;
+    padding: 0;
+    
+scrollbar-gutter: auto;
+
 }
 
 .lecturaGatito{
@@ -11,6 +16,7 @@ body{
     margin: auto;
     border-radius: 2rem;
     background-color: #0f9;
+    margin: 0.6rem 0.5rem;
 }
 .tituloGatito{
     display: flex;
@@ -23,11 +29,18 @@ body{
     text-align: center;
 
 }
+.margen{
+    margin-right: 0.5rem;
+    margin-left: 0rem;
+    display: flex;
+}
 .listaBreed{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     list-style-type: none;
+    margin: auto;
+    padding: auto;
 }
 
 .infoBreed{

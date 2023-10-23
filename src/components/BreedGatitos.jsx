@@ -20,7 +20,7 @@ const BreedGatitos = () => {
   console.log(breed);
 
   return (
-    <div className="">
+    <div className="margen">
       {Array.isArray(breed.data) && breed.data.length > 0 ? (
         <ul className="listaBreed">
           {breed.data.map((item, index) => (
